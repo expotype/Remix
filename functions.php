@@ -25,6 +25,9 @@ function remix_setup() {
 	 * to change 'remix' to the name of your theme in all the template files.
 	 */
 	load_theme_textdomain( 'remix', get_template_directory() . '/languages' );
+	
+	// Add support for full and wide align images.
+	add_theme_support( 'align-wide' );	
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );

@@ -30,6 +30,9 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 </head>
 
 <body <?php body_class(); ?> <?php hybrid_attr( 'body' ); ?>>
+
+<?php wp_body_open(); ?>
+
 <div id="page" class="site site-wrap">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'remix' ); ?></a>
 

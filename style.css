@@ -677,7 +677,7 @@ body.admin-bar .main-navigation, body.admin-bar .menu-toggle {
 	padding: 10px 20px;
 	padding: 0.625rem 1.25rem;
 	overflow: hidden;
-	width: 100px;
+	width: auto;
 	background:none;
 	text-transform:uppercase;
 }

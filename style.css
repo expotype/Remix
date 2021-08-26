@@ -2261,21 +2261,7 @@ img.no-border {
 		width:auto;		
 		float:right;
 	}		
-	
-	
-} /* END of @media screen and (min-width: 50em) */
-
-/*
-*  Maximum width of 800 pixels - it only affects the mobile view.
-*/
-@media screen and (max-width: 50em) {
-	
-	.wrap {
-
-		padding:0 32px;
-		padding:0 2.0rem;		
-	}
-.page-template-page-blocks .content-wrap {
+	.page-template-page-blocks .content-wrap {
 	max-width: 100%;
 	padding: 0;	
 	}
@@ -2292,7 +2278,21 @@ img.no-border {
     max-width: 72.5rem;
     margin: 0 auto;
 
-}	
+}
+	
+} /* END of @media screen and (min-width: 50em) */
+
+/*
+*  Maximum width of 800 pixels - it only affects the mobile view.
+*/
+@media screen and (max-width: 50em) {
+	
+	.wrap {
+
+		padding:0 32px;
+		padding:0 2.0rem;		
+	}
+	
 
 	.main-navigation.toggled {
 	  background-color: #fff;

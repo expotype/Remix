@@ -2275,12 +2275,24 @@ img.no-border {
 		padding:0 32px;
 		padding:0 2.0rem;		
 	}
-/*	
-	.custom-logo-link, .site-branding, #site-branding-text {
-		float: left;
-		width:auto;		
+.page-template-page-blocks .content-wrap {
+	max-width: 100%;
+	padding: 0;	
 	}
-*/
+
+.page-template-page-blocks .content-area	{
+	padding: 0;
+	}
+.page-template-page-blocks .site-content {
+  border: none;
+	margin: 0;
+}
+.alignwide {
+	  max-width: 1160px;
+    max-width: 72.5rem;
+    margin: 0 auto;
+
+}	
 
 	.main-navigation.toggled {
 	  background-color: #fff;

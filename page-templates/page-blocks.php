@@ -16,7 +16,7 @@ get_header(); ?>
 		<div id="content" role="main" <?php hybrid_attr( 'content' ); ?>>
 
 			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'template-parts/content', 'page-no-title' ); ?>
+				<?php get_template_part( 'template-parts/content', 'blocks' ); ?>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->

@@ -74,7 +74,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		
 		<?php do_action( 'remix_after_header' ); // after header hook ?>	
 
-		<div class="wrap">
+		<div class="wrap content-wrap">
 		
 		<?php get_sidebar ('after-header'); ?>
 	<div id="content" class="site-content">

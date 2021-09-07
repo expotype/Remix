@@ -2261,15 +2261,15 @@ img.no-border {
 		width:auto;		
 		float:right;
 	}		
-	.page-template-page-blocks .content-wrap {
+	.page-template-blocks .content-wrap {
 	max-width: 100%;
 	padding: 0;	
 	}
 
-.page-template-page-blocks .content-area	{
+.page-template-blocks .content-area	{
 	padding: 0;
 	}
-.page-template-page-blocks .site-content {
+.page-template-blocks .site-content {
   border: none;
 	margin: 0;
 }

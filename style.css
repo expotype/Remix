@@ -1932,10 +1932,10 @@ img.no-border {
 	body.attachment .content-area,
 	body.full-width .content-area,
 	body.page-template-front-page .content-area,
-	body.page-template-full-width .content-area	{
+	body.page-template-full-width .content-area,
+	body.page-template-blocks .content-area {
 		width: 100%;
 	}
-	
 
 	.site-header {
 	padding:0;
